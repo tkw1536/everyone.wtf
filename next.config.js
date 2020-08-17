@@ -1,11 +1,6 @@
 const withPrefresh = require('@prefresh/next');
 
 const config = {
-  experimental: {
-    modern: true,
-    polyfillsOptimization: true
-  },
-
   webpack(config, { dev, isServer }) {
     const splitChunks = config.optimization && config.optimization.splitChunks
     if (splitChunks) {
