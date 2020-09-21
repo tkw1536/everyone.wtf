@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
       <Html lang="en" itemScope itemType="http://schema.org/WebPage" prefix="og: http://ogp.me/ns#">
         <Head>
           <meta charSet="utf-8" />
-          <script async src="https://inform.everyone.wtf/legal.min.js?small,fixed,noborder" data-site-id="2facae70-5fd4-4499-876f-a32a0c0155d3"></script>
+          <script async src="https://inform.everyone.wtf/legal.min.js" data-site-id="2facae70-5fd4-4499-876f-a32a0c0155d3"></script>
         </Head>
         <body>
           <Main />
